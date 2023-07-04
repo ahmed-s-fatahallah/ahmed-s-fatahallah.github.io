@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import {Icon} from "@iconify/react";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -15,7 +16,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <Icon icon="cib:github"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -27,7 +28,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"></i>
+          <Icon icon="cib:linkedin"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -39,7 +40,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+          <Icon icon="cib:gmail"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -51,7 +52,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"></i>
+          <Icon icon="cib:gitlab"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -63,7 +64,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-facebook-f"></i>
+          <Icon icon="cib:facebook"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -75,7 +76,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-instagram"></i>
+          <Icon icon="cib:instagram"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -87,7 +88,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter"></i>
+          <Icon icon="cib:twitter"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -99,7 +100,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          <Icon icon="cib:medium"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -111,7 +112,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
+          <Icon icon="cib:stackoverflow"></Icon>
           <span></span>
         </a>
       ) : null}
@@ -123,7 +124,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-kaggle"></i>
+          <Icon icon="cib:kaggle"></Icon>
           <span></span>
         </a>
       ) : null}
