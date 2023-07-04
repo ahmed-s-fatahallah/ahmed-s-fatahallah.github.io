@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15892724.css",
-    "main.js": "/static/js/main.5ccd0771.js",
+    "main.js": "/static/js/main.17f95b0f.js",
     "static/css/575.4a64041d.chunk.css": "/static/css/575.4a64041d.chunk.css",
     "static/js/575.0d6ea6a7.chunk.js": "/static/js/575.0d6ea6a7.chunk.js",
     "static/css/650.9c394657.chunk.css": "/static/css/650.9c394657.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/Coursera WYF3JZ3R784G.jpg": "/static/media/Coursera WYF3JZ3R784G.7f38c6801580cae44b93.jpg",
     "static/media/Coursera 9CWK2KREABHM.jpg": "/static/media/Coursera 9CWK2KREABHM.487ed7a14bc23b913e9f.jpg",
     "static/media/Coursera FXE66LXM92RX.jpg": "/static/media/Coursera FXE66LXM92RX.d24efabc73738981b200.jpg",
-    "static/media/little-leom.JPG": "/static/media/little-leom.46f120aff69e542f44e5.JPG",
+    "static/media/Little-Lemon.JPG": "/static/media/Little-Lemon.48a7809f117d9c570ac3.JPG",
     "static/media/FWD professional Track.jpg": "/static/media/FWD professional Track.c6d3580d05d1c0a35673.jpg",
     "static/media/FWD advanced track certificate.jpg": "/static/media/FWD advanced track certificate.48c9c3614790d6cbca33.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -34,7 +34,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.15892724.css.map": "/static/css/main.15892724.css.map",
-    "main.5ccd0771.js.map": "/static/js/main.5ccd0771.js.map",
+    "main.17f95b0f.js.map": "/static/js/main.17f95b0f.js.map",
     "575.4a64041d.chunk.css.map": "/static/css/575.4a64041d.chunk.css.map",
     "575.0d6ea6a7.chunk.js.map": "/static/js/575.0d6ea6a7.chunk.js.map",
     "650.9c394657.chunk.css.map": "/static/css/650.9c394657.chunk.css.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.15892724.css",
-    "static/js/main.5ccd0771.js"
+    "static/js/main.17f95b0f.js"
   ]
 }
