@@ -246,7 +246,7 @@ const bigProjects = {
       image: require("./assets/images/meti-meteor.jpg"),
       projectName: "Meti-Meteor",
       projectDesc:
-        "It’s a mini game built by me from scratch to implement what I have learned about vanilla HTML, CSS, JavaScript. The game is about dragging and dropping a meteors on a board of 9 tiles during 5 turns the goal is not to destroy more than 3 tiles before your turns end.",
+        "It’s a mini-game built by me from scratch to implement what I have learned about vanilla HTML, CSS, and JavaScript. The game is about dragging and dropping meteors on a board of 9 tiles during 5 turns the goal is not to destroy more than 3 tiles before your turns end.",
       footerLink: [
         {
           name: "Visit Website",
