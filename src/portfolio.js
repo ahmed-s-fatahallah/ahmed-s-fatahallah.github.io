@@ -230,7 +230,7 @@ const bigProjects = {
     },
 
     {
-      image: require("./assets/images/little-leom.JPG"),
+      image: require("./assets/images/Little-Lemon.JPG"),
       projectName: "Little Lemon Restaurant",
       projectDesc:
         "A website for a fictional restaurant called Little Lemon which I Built from scratch starting by creating the wireframe and UI/UX design using Figma, then implementing these designs using React, React-router and CSS, and writing the unit tests using Jest. Also I was using Git and GitHub during the project and the project is deployed on gh-pages.",
