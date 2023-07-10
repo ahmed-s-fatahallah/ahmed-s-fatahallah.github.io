@@ -21,6 +21,11 @@
     font-size: 40px;
   }
 }
+@media (max-width: 1030px) {
+  #achievements {
+    opacity: 1;
+  }
+}
 @media (max-width: 768px) {
   .achievement-heading {
     font-size: 30px;
