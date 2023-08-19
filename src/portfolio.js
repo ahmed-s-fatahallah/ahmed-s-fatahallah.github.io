@@ -31,7 +31,7 @@ const greeting = {
     my skills.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1fVKbFSYKwzNQN8ZGxMTvYfFcdJcvlWwd/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13a351vGM3H4YqZ06HuhutM6ByN4tXO54/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -178,24 +178,22 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front-end web developer",
-      company: "META",
-      companylogo: require("./assets/images/meta_logo.png"),
-      desc: "A website for a fictional restaurant called Little Lemon which I Built from scratch starting by creating the wireframe and UI/UX design using Figma, then implementing these designs using React, React-router and CSS, and writing the unit tests using Jest. Also I was using Git and GitHub during the project and the project is deployed on gh-pages.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "JavaScript Developer",
+      company: "Nagwa Co.",
+      companylogo: require("./assets/images/Nagwa-Egypt-4718-1511769407.jpg"),
+      date: "Aug 2023 - Present",
+      desc: "A JavaScript developer working on different company applications and developing new ones with native JavaScript and TypeScript, also with React and Electronjs.",
+      descBullets: []
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Front-End Developer - Intern ",
+      company: "Robusta Studios",
+      companylogo: require("./assets/images/robusta.jpg"),
+      date: "July 2023 – Aug 2023",
+      desc: "Trained to work with native JavaScript, TypeScript, HTML, CSS, Git, GitHub, GitLab and React. Also,done some small projects and tasks during the internship."
     }
   ]
 };
@@ -230,7 +228,7 @@ const bigProjects = {
     },
 
     {
-      image: require("./assets/images/Little-Lemon.JPG"),
+      image: require("./assets/images/little-lemon.JPG"),
       projectName: "Little Lemon Restaurant",
       projectDesc:
         "A website for a fictional restaurant called Little Lemon which I Built from scratch starting by creating the wireframe and UI/UX design using Figma, then implementing these designs using React, React-router and CSS, and writing the unit tests using Jest. Also I was using Git and GitHub during the project and the project is deployed on gh-pages.",
