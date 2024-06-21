@@ -215,7 +215,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/allbirds-logo.jpg"),
-      projectName: "All birds (still under progress)",
+      projectName: "All birds",
       projectDesc:
         "A replica for an e-commerece website called All-Birds which I am building from scratch using nextjs as a personal project to practice what I have learned about react, nextjs and redux.",
       footerLink: [
