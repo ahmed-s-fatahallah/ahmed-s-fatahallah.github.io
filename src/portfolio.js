@@ -214,7 +214,7 @@ const bigProjects = {
     "SOME OF PROJECTS THAT I BUILT EITHER AS A PRACTICE ON WHAT I LEARN OR DURING COURSES",
   projects: [
     {
-      image: require("./assets/images/allbirds-logo.jpg"),
+      image: require("./assets/images/Untitled design.jpg"),
       projectName: "All birds",
       projectDesc:
         "A replica for an e-commerece website called All-Birds which I am building from scratch using nextjs as a personal project to practice what I have learned about react, nextjs and redux.",
