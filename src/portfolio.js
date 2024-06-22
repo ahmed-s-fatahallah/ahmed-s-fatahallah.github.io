@@ -77,10 +77,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon:css3"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "devicon:sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "devicon:javascript"
     },
@@ -95,6 +91,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "next.js",
       fontAwesomeClassname: "logos:nextjs-icon"
+    },
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "devicon:sass"
+    },
+    {
+      skillName: "Tailwind css",
+      fontAwesomeClassname: "devicon:tailwindcss"
     },
     {
       skillName: "nodejs",
@@ -214,7 +218,7 @@ const bigProjects = {
     "SOME OF PROJECTS THAT I BUILT EITHER AS A PRACTICE ON WHAT I LEARN OR DURING COURSES",
   projects: [
     {
-      image: require("./assets/images/Untitled design.jpg"),
+      image: require("./assets/images/allbirds-banner.jpg"),
       projectName: "All birds",
       projectDesc:
         "A replica for an e-commerece website called All-Birds which I am building from scratch using nextjs as a personal project to practice what I have learned about react, nextjs and redux.",
@@ -228,7 +232,7 @@ const bigProjects = {
     },
 
     {
-      image: require("./assets/images/little-lemon.JPG"),
+      image: require("./assets/images/little-lemon-banner.png"),
       projectName: "Little Lemon Restaurant",
       projectDesc:
         "A website for a fictional restaurant called Little Lemon which I Built from scratch starting by creating the wireframe and UI/UX design using Figma, then implementing these designs using React, React-router and CSS, and writing the unit tests using Jest. Also I was using Git and GitHub during the project and the project is deployed on gh-pages.",
@@ -294,7 +298,7 @@ const achievementSection = {
       title: "FWD full-stack web development Advanced track",
       subtitle:
         "Finished Udacity and ITIDA Advanced track for the full-stack web development scholarship",
-      image: require("./assets/images/FWD advanced track certificate.jpg"),
+      image: require("./assets/images/FWD advanced track certificate.png"),
       imageAlt: "FWD Advanced track certificate",
       footerLink: [
         {
@@ -363,7 +367,7 @@ const achievementSection = {
       title: "Coursera and Meta HTML and CSS in depth certificate",
       subtitle:
         "Coursera and Meta HTML and CSS in depth course in which I have learned more about HTML and its meta tags, also more about CSS selectors, variables and properties.",
-      image: require("./assets/images/Coursera BPN2RC9S6SQX.jpg"),
+      image: require("./assets/images/Coursera BPN2RC9S6SQX.png"),
       imageAlt: "Coursera and Meta HTML and CSS in depth certificate",
       footerLink: [
         {
@@ -389,7 +393,7 @@ const achievementSection = {
       title: "Coursera and Meta Advanced React certificate",
       subtitle:
         "Coursera and Meta Advanced React course in which I have learned more about react, react hooks, state and the context api.",
-      image: require("./assets/images/Coursera SV5ZGY7DY2QF.jpg"),
+      image: require("./assets/images/Coursera SV5ZGY7DY2QF.png"),
       imageAlt: "Coursera and Meta Advanced React certificate",
       footerLink: [
         {
@@ -428,7 +432,7 @@ const achievementSection = {
       title: "Coursera and Meta Coding interview preparation certificate",
       subtitle:
         "Coursera and Meta Coding interview preparation project in which I have learned about Data Structure and Algorithms and about how to approach interviews.",
-      image: require("./assets/images/Coursera 6E78Z4SETNDX.jpg"),
+      image: require("./assets/images/Coursera 6E78Z4SETNDX.png"),
       imageAlt: "Coursera and Meta Coding interview preparation certificate",
       footerLink: [
         {
