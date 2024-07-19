@@ -31,7 +31,7 @@ const greeting = {
     my skills.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/13a351vGM3H4YqZ06HuhutM6ByN4tXO54/view?usp=drive_link", // Set to empty to hide the button
+    "https://flowcv.com/resume/uu90p0o4n0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
