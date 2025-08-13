@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -19,19 +19,17 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+const currentYear = new Date().getFullYear();
+
 const greeting = {
   username: "Ahmed Saeed",
   title: "Hi all, I'm Ahmed",
   subTitle: emoji(
-    `A self-taught front-end web developer with a passion for creating
-    beautiful and responsive websites. I have learned vanilla HTML,
-    CSS, JavaScript, and React through online courses, tutorials, and
-    projects. I enjoy learning new technologies and frameworks, and
-    I'm always looking for new challenges and opportunities to improve
-    my skills.`
+    `A Frontend Engineer with ${
+      currentYear - 2022
+    }+ years of experience that focuses on building scalable web applications using React, Next.js, TypeScript, Tailwind CSS, and modern state management tools. I have strong background in optimizing performance, refining infrastructure, and enhancing user experience across diverse domains. Excellent collaboration and problem-solving skills, with a passion for clean architecture and continuous learning`
   ),
-  resumeLink:
-    "https://flowcv.com/resume/uu90p0o4n0", // Set to empty to hide the button
+  resumeLink: "https://flowcv.com/resume/uu90p0o4n0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -53,10 +51,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "FRONT-END WEB DEVELOPER WHO WANTS TO BUILD AWESOME AND RESPONSIVE WEBSITES AND LEARN ALL NEW TECHNOLOGIES OUT THERE.",
+    "A FRONT-END WEB DEVELOPER WHO WANTS TO BUILD AWESOME AND RESPONSIVE WEBSITES AND LEARN ALL NEW TECHNOLOGIES OUT THERE.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop and maintain highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -69,22 +67,6 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "devicon:html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "devicon:css3"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "devicon:javascript"
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "devicon:typescript"
-    },
-    {
       skillName: "reactjs",
       fontAwesomeClassname: "devicon:react"
     },
@@ -93,12 +75,36 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "logos:nextjs-icon"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "devicon:sass"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "devicon:typescript"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "devicon:javascript"
     },
     {
       skillName: "Tailwind css",
       fontAwesomeClassname: "devicon:tailwindcss"
+    },
+    {
+      skillName: "VueJs",
+      fontAwesomeClassname: "devicon:vuejs"
+    },
+    {
+      skillName: "NuxtJs",
+      fontAwesomeClassname: "devicon:nuxtjs"
+    },
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "devicon:html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "devicon:css3"
+    },
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "devicon:sass"
     },
     {
       skillName: "nodejs",
@@ -164,16 +170,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "React",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Programming",
+      Stack: "Next.Js",
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "VueJs",
       progressPercentage: "80%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "20%"
+      Stack: "NuxtJs",
+      progressPercentage: "70%%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,19 +195,70 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Frontend Engineer (Part Time)",
+      company: "Travel Yalla",
+      companylogo: require("./assets/images/travelyalla.jpg"),
+      date: "Jun 2025 - Present",
+      descBullets: [
+        `Engineered scalable booking interfaces, boosting reservation flow performance and increasing conversion rates by 18%.`,
+        `Implemented advanced state and data management, reducing API latency and improving real-time responsiveness by 25%.`,
+        `Enhanced form UX and validation, streamlining user input processes and decreasing form abandonment by 20%.`
+      ]
+    },
+    {
+      role: "Frontend Engineer ||",
+      company: "Robusta Studio",
+      companylogo: require("./assets/images/robusta.jpg"),
+      date: "May 2025 - Present",
+      descBullets: [
+        `Optimized critical components of the web platform, enhancing performance and cutting load times by 40%, leading to a more seamless and responsive user experience.`,
+        `Refactored project infrastructure by refining module boundaries, improving build stability, and reducing deployment issues by 30%.`,
+        `Collaborated with cross-functional teams to enhance localization and routing logic, boosting global user retention by 22%.`
+      ]
+    },
+    {
+      role: "Frontend Engineer ||",
+      company: "Synapse Analytics",
+      companylogo: require("./assets/images/Synapse-Analytics.png"),
+      date: "Jun 2024 - May 2025",
+      descBullets: [
+        `Optimized key components in a web app, reducing load times by 30% and resulting in smoother user interactions.`,
+        `Delivered a new set of features, enhancing monitoring of social media accounts and reducing bugs by 20%.`,
+        `Collaborated with designers and backend developers to ensure seamless integration between the frontend interface and business logic, improving team productivity by 25%.`
+      ]
+    },
+    {
+      role: "Frontend Engineer ||",
+      company: "Up shifters",
+      companylogo: require("./assets/images/upshifters.jpg"),
+      date: "May 2024 - Jun 2024",
+      descBullets: [
+        `Engineered scalable UI components and campaign management dashboards using React and TypeScript, improving marketer efficiency and reducing interface latency by 30%.`,
+        `Integrated real-time analytics and A/B testing workflows via WebSocket and TanStack Query, enabling dynamic content targeting and boosting campaign conversion rates by 25%.`,
+        `Collaborated cross-functionally with product and backend teams to streamline feature delivery, reducing release friction and accelerating roadmap execution by 40%.`
+      ]
+    },
+    {
       role: "JavaScript Developer",
       company: "Nagwa Co.",
       companylogo: require("./assets/images/Nagwa-Egypt-4718-1511769407.jpg"),
-      date: "Aug 2023 - Present",
-      desc: "A JavaScript developer working on different company applications and developing new ones with native JavaScript and TypeScript, also with React and Electronjs.",
-      descBullets: []
+      date: "April 2023 - May 2024",
+      descBullets: [
+        `CodeBites Website: Sole frontend engineer responsible for architecting and building the platform from scratch using React, TypeScript, Zustand, Monaco Editor, and SkulptJs. Delivered 15+ interactive components, reduced development overhead by 40%, and accelerated release cycles by 35% through close backend collaboration.`,
+        `Questions Engine: Enhanced a TypeScript-based XML parser to support new question types, refactored legacy logic, and improved error handling—cutting technical debt by 20% and reducing rendering issues by 30%.`,
+        `Replay Engine: Optimized performance and introduced modular playback features using React, Redux Toolkit, and Plyr.js.. Improved replay accuracy by 35% and reduced user-reported bugs by 25%.`
+      ]
     },
     {
       role: "Front-End Developer - Intern ",
-      company: "Robusta Studios",
+      company: "Robusta Studio",
       companylogo: require("./assets/images/robusta.jpg"),
-      date: "July 2023 – Aug 2023",
-      desc: "Trained to work with native JavaScript, TypeScript, HTML, CSS, Git, GitHub, GitLab and React. Also,done some small projects and tasks during the internship."
+      date: "Mar 2023 – Apr 2023",
+      descBullets: [
+        `Assist in developing responsive user interfaces using React, TypeScript, and modern CSS frameworks.`,
+        `Collaborate with designers and backend engineers to implement and refine product features.`,
+        `Participate in code reviews, sprint planning, and team stand-ups to learn agile development practices.`
+      ]
     }
   ]
 };
