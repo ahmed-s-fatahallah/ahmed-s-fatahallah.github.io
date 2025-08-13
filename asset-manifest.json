@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff64a04a.css",
-    "main.js": "/static/js/main.7f284cc3.js",
+    "main.css": "/static/css/main.1f7e0798.css",
+    "main.js": "/static/js/main.874cdde1.js",
     "static/css/487.fdaf9e82.chunk.css": "/static/css/487.fdaf9e82.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -28,19 +28,21 @@
     "static/media/Nagwa-Egypt-4718-1511769407.jpg": "/static/media/Nagwa-Egypt-4718-1511769407.3f3c363ae27f1a886cfc.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/travelyalla.jpg": "/static/media/travelyalla.03fa5ef552de1c9a0492.jpg",
+    "static/media/Synapse-Analytics.png": "/static/media/Synapse-Analytics.9b17c5539bf251e2f492.png",
     "static/media/ZagUni.jpg": "/static/media/ZagUni.d00f84dbf7626f99bdeb.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.ff64a04a.css.map": "/static/css/main.ff64a04a.css.map",
-    "main.7f284cc3.js.map": "/static/js/main.7f284cc3.js.map",
+    "main.1f7e0798.css.map": "/static/css/main.1f7e0798.css.map",
+    "main.874cdde1.js.map": "/static/js/main.874cdde1.js.map",
     "487.fdaf9e82.chunk.css.map": "/static/css/487.fdaf9e82.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.ea61ec18.chunk.js.map": "/static/js/990.ea61ec18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff64a04a.css",
-    "static/js/main.7f284cc3.js"
+    "static/css/main.1f7e0798.css",
+    "static/js/main.874cdde1.js"
   ]
 }
