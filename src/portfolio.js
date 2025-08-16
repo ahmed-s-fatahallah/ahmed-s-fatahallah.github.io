@@ -194,17 +194,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Senior Frontend Engineer (Part Time)",
-      company: "Travel Yalla",
-      companylogo: require("./assets/images/travelyalla.jpg"),
-      date: "Jun 2025 - Present",
-      descBullets: [
-        `Engineered scalable booking interfaces, boosting reservation flow performance and increasing conversion rates by 18%.`,
-        `Implemented advanced state and data management, reducing API latency and improving real-time responsiveness by 25%.`,
-        `Enhanced form UX and validation, streamlining user input processes and decreasing form abandonment by 20%.`
-      ]
-    },
+    // {
+    //   role: "Senior Frontend Engineer (Part Time)",
+    //   company: "Travel Yalla",
+    //   companylogo: require("./assets/images/travelyalla.jpg"),
+    //   date: "Jun 2025 - Present",
+    //   descBullets: [
+    //     `Engineered scalable booking interfaces, boosting reservation flow performance and increasing conversion rates by 18%.`,
+    //     `Implemented advanced state and data management, reducing API latency and improving real-time responsiveness by 25%.`,
+    //     `Enhanced form UX and validation, streamlining user input processes and decreasing form abandonment by 20%.`
+    //   ]
+    // },
     {
       role: "Frontend Engineer ||",
       company: "Robusta Studio",
