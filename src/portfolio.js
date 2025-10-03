@@ -26,7 +26,7 @@ const greeting = {
   title: "Hi all, I'm Ahmed",
   subTitle: emoji(
     `A Frontend Engineer with ${
-      currentYear - 2022
+      currentYear - 2021
     }+ years of experience that focuses on building scalable web applications using React, Next.js, TypeScript, Tailwind CSS, and modern state management tools. I have strong background in optimizing performance, refining infrastructure, and enhancing user experience across diverse domains. Excellent collaboration and problem-solving skills, with a passion for clean architecture and continuous learning`
   ),
   resumeLink: "https://flowcv.com/resume/uu90p0o4n0", // Set to empty to hide the button
@@ -183,7 +183,7 @@ const techStack = {
     },
     {
       Stack: "NuxtJs",
-      progressPercentage: "70%%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -220,7 +220,7 @@ const workExperiences = {
       role: "Frontend Engineer ||",
       company: "Synapse Analytics",
       companylogo: require("./assets/images/Synapse-Analytics.png"),
-      date: "Jun 2024 - May 2025",
+      date: "June 2023 - May 2025",
       descBullets: [
         `Optimized key components in a web app, reducing load times by 30% and resulting in smoother user interactions.`,
         `Delivered a new set of features, enhancing monitoring of social media accounts and reducing bugs by 20%.`,
@@ -231,7 +231,7 @@ const workExperiences = {
       role: "Frontend Engineer ||",
       company: "Up shifters",
       companylogo: require("./assets/images/upshifters.jpg"),
-      date: "May 2024 - Jun 2024",
+      date: "May 2023 - June 2023",
       descBullets: [
         `Engineered scalable UI components and campaign management dashboards using React and TypeScript, improving marketer efficiency and reducing interface latency by 30%.`,
         `Integrated real-time analytics and A/B testing workflows via WebSocket and TanStack Query, enabling dynamic content targeting and boosting campaign conversion rates by 25%.`,
@@ -242,7 +242,7 @@ const workExperiences = {
       role: "JavaScript Developer",
       company: "Nagwa Co.",
       companylogo: require("./assets/images/Nagwa-Egypt-4718-1511769407.jpg"),
-      date: "April 2023 - May 2024",
+      date: "April 2021 - May 2023",
       descBullets: [
         `CodeBites Website: Sole frontend engineer responsible for architecting and building the platform from scratch using React, TypeScript, Zustand, Monaco Editor, and SkulptJs. Delivered 15+ interactive components, reduced development overhead by 40%, and accelerated release cycles by 35% through close backend collaboration.`,
         `Questions Engine: Enhanced a TypeScript-based XML parser to support new question types, refactored legacy logic, and improved error handling—cutting technical debt by 20% and reducing rendering issues by 30%.`,
@@ -253,7 +253,7 @@ const workExperiences = {
       role: "Front-End Developer - Intern ",
       company: "Robusta Studio",
       companylogo: require("./assets/images/robusta.jpg"),
-      date: "Mar 2023 – Apr 2023",
+      date: "March 2021 – April 2021",
       descBullets: [
         `Assist in developing responsive user interfaces using React, TypeScript, and modern CSS frameworks.`,
         `Collaborate with designers and backend engineers to implement and refine product features.`,
