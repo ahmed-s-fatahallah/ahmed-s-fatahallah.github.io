@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f7e0798.css",
-    "main.js": "/static/js/main.babe0275.js",
+    "main.js": "/static/js/main.6c64f344.js",
     "static/css/487.fdaf9e82.chunk.css": "/static/css/487.fdaf9e82.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -29,12 +29,14 @@
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/Synapse-Analytics.png": "/static/media/Synapse-Analytics.9b17c5539bf251e2f492.png",
+    "static/media/cropped-Asset-1-1.png": "/static/media/cropped-Asset-1-1.ae1e9c5e913a719cc551.png",
     "static/media/ZagUni.jpg": "/static/media/ZagUni.d00f84dbf7626f99bdeb.jpg",
+    "static/media/exequt_mena_logo.jpg": "/static/media/exequt_mena_logo.8c7de8f13d9aa0474b24.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.1f7e0798.css.map": "/static/css/main.1f7e0798.css.map",
-    "main.babe0275.js.map": "/static/js/main.babe0275.js.map",
+    "main.6c64f344.js.map": "/static/js/main.6c64f344.js.map",
     "487.fdaf9e82.chunk.css.map": "/static/css/487.fdaf9e82.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -42,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.1f7e0798.css",
-    "static/js/main.babe0275.js"
+    "static/js/main.6c64f344.js"
   ]
 }
