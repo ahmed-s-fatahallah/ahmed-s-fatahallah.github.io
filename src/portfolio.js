@@ -95,6 +95,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon:nuxtjs"
     },
     {
+      skillName: "Angular",
+      fontAwesomeClassname: "devicon:angular"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "devicon:html5"
     },
@@ -183,6 +187,10 @@ const techStack = {
     },
     {
       Stack: "NuxtJs",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Angular",
       progressPercentage: "70%"
     }
   ],
@@ -194,22 +202,34 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Senior Frontend Engineer (Part Time)",
-    //   company: "Travel Yalla",
-    //   companylogo: require("./assets/images/travelyalla.jpg"),
-    //   date: "Jun 2025 - Present",
-    //   descBullets: [
-    //     `Engineered scalable booking interfaces, boosting reservation flow performance and increasing conversion rates by 18%.`,
-    //     `Implemented advanced state and data management, reducing API latency and improving real-time responsiveness by 25%.`,
-    //     `Enhanced form UX and validation, streamlining user input processes and decreasing form abandonment by 20%.`
-    //   ]
-    // },
+    {
+      role: "Senior Frontend Engineer",
+      company: "ExeQut",
+      companylogo: require("./assets/images/exequt_mena_logo.jpg"),
+      date: "May 2025 - Present",
+      descBullets: [
+        `Work as a contractor for a US-based software house, delivering software solutions for multiple clients across different industries.`,
+        `Contribute to the development and maintenance of client applications, delivering new features, resolving bugs, and improving application performance.`,
+        `Collaborate with distributed engineering teams to deliver scalable, maintainable solutions aligned with client requirements.`,
+        `Work across different frontend technologies and codebases, adapting to diverse architectures and development workflows.`
+      ]
+    },
+    {
+      role: "Senior Frontend Engineer",
+      company: "Qoyod",
+      companylogo: require("./assets/images/cropped-Asset-1-1.png"),
+      date: "April 2025 - Present",
+      descBullets: [
+        `Quickly embedded into Qoyodʼs engineering team, demonstrating adaptability by ramping up on React/Next.js workflows and contributing to sprint deliverables within the first weeks.`,
+        `Contributed to initial sprint tasks, supporting feature development and bug fixes while familiarizing with Qoyodʼs React/Next.js codebase and design system.`,
+        `Collaborated in early localization discussions, ensuring Arabic UI phrasing and skip logic are considered from the start of product development.`
+      ]
+    },
     {
       role: "Frontend Engineer ||",
       company: "Robusta Studio",
       companylogo: require("./assets/images/robusta.jpg"),
-      date: "May 2025 - Present",
+      date: "May 2025 - April 2026",
       descBullets: [
         `Optimized critical components of the web platform, enhancing performance and cutting load times by 40%, leading to a more seamless and responsive user experience.`,
         `Refactored project infrastructure by refining module boundaries, improving build stability, and reducing deployment issues by 30%.`,
