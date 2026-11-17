@@ -217,7 +217,7 @@ const workExperiences = {
     {
       role: "Senior Frontend Engineer",
       company: "Qoyod",
-      companylogo: require("./assets/images/cropped-Asset-1-1.png"),
+      companylogo: require("./assets/images/unnamed.png"),
       date: "April 2025 - Present",
       descBullets: [
         `Quickly embedded into Qoyodʼs engineering team, demonstrating adaptability by ramping up on React/Next.js workflows and contributing to sprint deliverables within the first weeks.`,
